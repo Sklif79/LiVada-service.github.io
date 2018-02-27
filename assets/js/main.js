@@ -152,7 +152,7 @@ $(document).ready(function () {
                 // Необходимо указать данный тип макета.
                 iconLayout: 'default#image',
                 // Своё изображение иконки метки.
-                iconImageHref: './assets/images/map-marker.png',
+                iconImageHref: '../images/map-marker.png',
                 // Размеры метки.
                 iconImageSize: [23, 34]
             });
