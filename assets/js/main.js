@@ -141,8 +141,8 @@ $(document).ready(function () {
         function init() {
             myMap = new ymaps.Map("map", {
                 center: [53.928, 27.69852],
-                zoom: 17,
-                controls: []
+                zoom: 17
+                // controls: []
             });
 
             myPlacemark = new ymaps.Placemark([53.928206, 27.703298], {
@@ -152,7 +152,7 @@ $(document).ready(function () {
                 // Необходимо указать данный тип макета.
                 iconLayout: 'default#image',
                 // Своё изображение иконки метки.
-                iconImageHref: './assets/images/map-marker.png',
+                iconImageHref: '/assets/images/map-marker.png',
                 // Размеры метки.
                 iconImageSize: [23, 34]
             });
